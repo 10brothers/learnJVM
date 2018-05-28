@@ -1,0 +1,3 @@
+测试oom的情况，熟知内存参数配置项
+设置堆区的大小 -Xms 最小堆内存   -Xmx 最大对内存  -Xms = -Xmx时表示不可扩展
+-XX:HeapDumpOnOutOfMemoryError 设置OOM时dump堆内存转储快照
